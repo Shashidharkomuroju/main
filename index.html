@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Project</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="img">
+      <!-- NAVBAR................ -->
+      <nav>
+        <div class="logo">
+          <h2>Gift</h2>
+        </div>
+        <div class="menu">
+          <a href="#Home">Home</a>
+          <a href="#About">About</a>
+          <a href="#Services">Services</a>
+          <a href="#Contact">Contact us</a>
+        </div>
+      </nav>
+
+      <!--MAIN SECTION..............  -->
+
+      <div class="section" id="About">
+        <div class="content">
+          <h1>Personalized Gifts</h1>
+          <img src="./Images/Gift.jpg" alt="" />
+          <p>
+            A personalized gift exhibit exclusiveness because it is tailored
+            made with love and care,<span></span> keeping in mind the person and
+            relation. In a world full of partiality and lies,<span></span> give
+            someone something that belongs exclusively to them and also help
+            <span></span> them revel in the pleasure that they are being
+            remembered.
+          </p>
+        </div>
+      </div>
+
+      <!--CUSTOMER DETAILS  -->
+
+      <div class="details" id="Services">
+        <h2>Gifts</h2>
+        <div class="child">
+          <h3>Rings</h3>
+          <input type="text" placeholder="Enter the Amount" id="rings" />
+        </div>
+        <div class="child">
+          <h3>Watches</h3>
+          <input type="text" placeholder="Enter the Amount" id="watches" />
+        </div>
+        <div class="child">
+          <h3>Hoodies</h3>
+          <input type="text" placeholder="Enter the Amount" id="hoodies" />
+        </div>
+        <div class="child">
+          <h3>Wallet</h3>
+          <input type="text" placeholder="Enter the Amount" id="wallet" />
+        </div>
+        <div class="child">
+          <h3>Bag</h3>
+          <input type="text" placeholder="Enter the Amount" id="bag" />
+        </div>
+        <button id="payment" onclick="calculate()"><h2>Payment</h2></button>
+      </div>
+      <div id="paymentdetails">
+
+      </div>
+
+
+      <!-- .........FOOTER...... -->
+
+      <footer id="Contact">
+        <h2>Contact Us</h2>
+        <div class="card">
+          <h4>Get in Touch</h4>
+          <p>Gift.com <br> gift@mail.com <br> +91 0000000000</p>
+        </div>
+        <div class="card1">
+          <h4>Privacy Policy</h4>
+        </div>
+        <div class="card2">
+          <h4>Terms & Conditions</h4>
+          <img src="./Images/insta.jpg" alt="">
+          <img src="./Images/linkidn.jpg" alt="">
+          <img src="./Images/twt.jpg" alt="">
+          <img src="./Images/youtube.jpg" alt="">
+
+
+        </div>
+
+      </footer>
+
+      <script src="app.js"></script>
+
+    </div>
+  </body>
+</html>
